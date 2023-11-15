@@ -4,10 +4,10 @@ def find_common_participants (str_1,str_2,separator=','):
     set_2=set(str_2.split(separator))
 
     find = set_1.intersection(set_2)
-    List = list(find)
-    List.sort()
+    list_ = list(find)
+    list_.sort()
 
-    return List
+    return list_
 
 
 participants_first_group = "Иванов|Петров|Сидоров"
